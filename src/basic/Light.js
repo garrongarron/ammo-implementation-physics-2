@@ -5,7 +5,7 @@ const light = new THREE.AmbientLight( 0x202020 ); // soft white light
 const directionalLight = new THREE.DirectionalLight( 0xffffff, 0.3 );
 light.add( directionalLight );
 
-directionalLight.position.set(0,10,5)
+directionalLight.position.set(5,10,5)
 directionalLight.castShadow = true; // default false
 
 
